@@ -10,10 +10,11 @@
 
 #ifdef __OBJC__
 
-#import "UIView+SHExtension.h"
 
 
 /*(聊天界面)*/
+
+#import "UIView+SHExtension.h"
 
 #define kIsIphoneX (([[UIApplication sharedApplication] statusBarFrame].size.height > 20.0f))
 #define kSHWidth ([[UIScreen mainScreen] bounds].size.width)

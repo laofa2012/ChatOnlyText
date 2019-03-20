@@ -29,7 +29,7 @@
     
     self.title = @"纯文本聊天";
     
-    // 聊天北京
+    // 背景
     self.view.backgroundColor = [UIColor colorWithRed:237 / 255.0f green:236 / 255.0f blue:237 / 255.0f alpha:1.0f];
     
     // 初始化

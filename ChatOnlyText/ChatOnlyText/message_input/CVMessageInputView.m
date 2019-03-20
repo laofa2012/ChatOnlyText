@@ -86,7 +86,7 @@ static CGFloat start_maxy;
         [_sendBtn setTitleColor:kRGB(76, 76, 76, 1) forState:UIControlStateNormal];
         [_sendBtn setTitleColor:kRGB(150, 150, 150, 1) forState:UIControlStateHighlighted];
         //文字内容
-        [_sendBtn setTitle:@"SEND" forState:UIControlStateNormal];
+        [_sendBtn setTitle:@"发送" forState:UIControlStateNormal];
         //点击方式
         [_sendBtn addTarget:self action:@selector(sendPress:) forControlEvents:UIControlEventTouchUpInside];
     }
