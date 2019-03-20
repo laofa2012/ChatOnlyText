@@ -1,0 +1,29 @@
+// 
+// Prefix header for all source files of the 'ChatOnlyTaxt' target in the 'ChatOnlyTaxt' project
+// 
+
+#import <Availability.h>
+
+#ifndef __IPHONE_8_0
+#warning "This project uses features only available in iOS SDK 8.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import "UIView+SHExtension.h"
+
+
+/*(聊天界面)*/
+
+#define kIsIphoneX (([[UIApplication sharedApplication] statusBarFrame].size.height > 20.0f))
+#define kSHWidth ([[UIScreen mainScreen] bounds].size.width)
+#define kSHHeight ([[UIScreen mainScreen] bounds].size.height)
+#define kSHBottomSafe (kIsIphoneX ? 39.0f : 0.0f)
+#define kRGB(R,G,B,A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
+#define kInPutViewColor kRGB(243, 243, 247, 1)
+#define kSHInPutHeight 49.0f
+#define kSHInPutSpace 7.0f
+#define kSHInPutIcon_WH 35.0f
+#define kSHInPutButton_W 65.0f
+
+#endif

@@ -1,0 +1,24 @@
+PODS:
+  - Masonry (1.1.0)
+  - SHEmotionKeyboard (1.0.3):
+    - "UIView+SHExtension (= 0.0.1)"
+  - "UIView+SHExtension (0.0.1)"
+
+DEPENDENCIES:
+  - Masonry
+  - SHEmotionKeyboard
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - SHEmotionKeyboard
+    - "UIView+SHExtension"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SHEmotionKeyboard: 63b77ca24d318b2998fe29f44f9c3bf5eff8af80
+  "UIView+SHExtension": 7d2c58e60da7de044b17407900a211a54eb855de
+
+PODFILE CHECKSUM: 7b57860ff3e610ea6d16f8c0bb82ee83d275c331
+
+COCOAPODS: 1.6.0.beta.2
